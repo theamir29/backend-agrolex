@@ -1086,6 +1086,10 @@ app.delete("/api/admin/themes/:id", authenticateAdmin, async (req, res) => {
   }
 });
 
+app.get("/", async (req, res) => {
+  res.send("Welcome to the AgroLex API");
+});
+
 // Get admin statistics
 app.get("/api/admin/stats", authenticateAdmin, async (req, res) => {
   try {
