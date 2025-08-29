@@ -17,7 +17,11 @@ const app = express();
 // ========== MIDDLEWARE ==========
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:5173"], // Vite default port
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:5173",
+      "https://agro-english-master-v2.vercel.app",
+    ], // Vite default port
     credentials: true,
   })
 );
