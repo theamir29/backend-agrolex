@@ -20,7 +20,8 @@ const Term = mongoose.model("Term", termSchema);
 async function clearTerms() {
   try {
     await mongoose.connect(
-      process.env.MONGODB_URI || "mongodb://localhost:27017/agro-dictionary"
+      process.env.MONGODB_URI ||
+        "mongodb+srv://ab4820463_db_user:yzMQ2L2UnZinpKjr@cluster0.1draqhe.mongodb.net/agolex"
     );
     console.log("Connected to MongoDB");
 
