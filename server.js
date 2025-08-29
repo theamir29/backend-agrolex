@@ -1177,7 +1177,7 @@ app.get("/api/admin/analytics", authenticateAdmin, async (req, res) => {
 app.use(errorHandler);
 
 // ========== DATABASE CONNECTION & SERVER START ==========
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4321;
 
 mongoose
   .connect(
