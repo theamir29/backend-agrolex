@@ -20,6 +20,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://agro-lex.uz",
+      "https://www.agro-lex.uz",
       "http://localhost:5173",
       "https://agro-english-master-v2.vercel.app",
     ], // Vite default port
