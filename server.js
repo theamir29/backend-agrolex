@@ -19,6 +19,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
+      "https://agro-lex.uz",
       "http://localhost:5173",
       "https://agro-english-master-v2.vercel.app",
     ], // Vite default port
